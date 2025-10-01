@@ -1,7 +1,7 @@
 import {fetchMap} from '@deck.gl/carto';
 import {DataFilterExtension, _TerrainExtension as TerrainExtension} from '@deck.gl/extensions';
 import {FADE_IN_COLOR} from './transitions';
-import {cartoCredentials} from '../index';
+import {cartoCredentials} from '../config/carto-credentials';
 
 const tooltipOverride = (new URL(location.href)).searchParams.has('tooltip');
 

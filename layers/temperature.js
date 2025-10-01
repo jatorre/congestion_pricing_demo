@@ -3,7 +3,7 @@ import {DataFilterExtension, _TerrainExtension as TerrainExtension} from '@deck.
 import {colorToRGBArray} from '../utils';
 import {TEMPERATURE_COLOR_SCALE} from './colorScales';
 import {FADE_IN_COLOR} from './transitions';
-import {cartoCredentials} from '../index';
+import {cartoCredentials} from '../config/carto-credentials';
 
 const {colors, values} = TEMPERATURE_COLOR_SCALE;
 
