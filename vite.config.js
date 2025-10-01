@@ -13,6 +13,7 @@ const writeBody = (buffer, res) => {
 }
 
 export default {
+  base: '/congestion_pricing_demo/',
   plugins: [
     svgr(),
     viteStaticCopy({
